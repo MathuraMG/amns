@@ -1,0 +1,158 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Sue Ellen Francisco", cursive; }
+
+.nav__logo-image {
+  height: 120%;
+  padding-left: 1.2rem; }
+.nav__container {
+  background-color: #fff;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  height: 4.8rem;
+  font-family: "Lato", sans-serif; }
+.nav__list-left {
+  margin: 0 5%;
+  height: 100%;
+  padding-top: 1.2rem; }
+.nav__list-right {
+  list-style: none;
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  margin: 0 5%;
+  align-items: center; }
+.nav__list-link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #000; }
+  .nav__list-link:hover {
+    color: #c9c4c7; }
+
+.main-container {
+  margin-top: 4.8rem; }
+
+.video__container {
+  margin: 0 auto;
+  padding: 1.2rem;
+  background-color: #fff;
+  width: 60%;
+  border-radius: 0.8rem;
+  box-sizing: border-box; }
+
+.video__file {
+  margin: 0 auto;
+  display: flex;
+  max-width: 80%; }
+
+.home__container {
+  background-color: #d73830;
+  padding: 2rem 0; }
+
+.about__container {
+  background-color: #469146;
+  padding: 2rem 0; }
+
+.about__image {
+  width: 80%;
+  display: flex;
+  margin: 0 auto; }
+
+.download__container {
+  background-color: #2b84b7;
+  padding: 2rem 0; }
+
+.info__container {
+  background-color: #f7b219;
+  padding: 2rem 0; }
+
+.content {
+  width: 60%;
+  margin: 1.2rem auto;
+  background-color: #fff;
+  padding: 1.2rem;
+  border-radius: 0.8rem;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box; }
+
+.about__content {
+  width: 80%;
+  margin: 1.2rem auto;
+  background-color: #fff;
+  padding: 1.2rem;
+  border-radius: 0.8rem;
+  font-family: "Lato", sans-serif; }
+
+.home__content {
+  width: 80%;
+  margin: 1.2rem auto;
+  padding: 1.2rem;
+  font-family: "Lato", sans-serif;
+  text-align: center; }
+
+.content-main {
+  margin: 1.2rem auto;
+  color: #fff;
+  padding: 1.2rem;
+  border-radius: 0.8rem;
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: "Sue Ellen Francisco", cursive; }
+
+.download__list {
+  list-style: none;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  width: 60%;
+  margin: 0 auto; }
+
+.download__list-item {
+  background-color: #fff;
+  border-radius: 0.8rem;
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem;
+  box-sizing: border-box; }
+
+.download__list-image {
+  width: 100%;
+  display: flex; }
+
+.download__list-link {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 2rem; }
+
+.loop-st__button {
+  width: 20%;
+  opacity: 0.5;
+  height: 100px;
+  border-radius: 5px;
+  border: none; }
+  .loop-st__button-red {
+    background-color: #d13535; }
+  .loop-st__button-blue {
+    background-color: #37a8e9; }
+  .loop-st__button-green {
+    background-color: #20bc39; }
+  .loop-st__button-yellow {
+    background-color: #e9cc0c; }
+
+.loop-st__container {
+  width: 60%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between; }
+
+/*# sourceMappingURL=style.css.map */

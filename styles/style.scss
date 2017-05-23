@@ -1,0 +1,207 @@
+$red: #d73830;
+$green: #469146;
+$blue: #2b84b7;
+$yellow: #f7b219;
+$white: #fff;
+$black: #000;
+$light-grey: #c9c4c7;
+$violet: #c8a8ab;
+
+$primary-font: 'Sue Ellen Francisco', cursive;
+$secondary-font: 'Lato', sans-serif;
+
+$heading-font-size: 2.5rem;
+$nav-font-size: 1.2rem;
+$p-font-size: 1rem;
+
+$nav-size: 1.2rem;
+$para-padding: 1.2rem;
+$content-padding: 1.2rem;
+$container-padding: 2rem;
+$content-radius: 0.8rem;
+
+body,html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: $primary-font;
+}
+
+.nav {
+  &__logo-image {
+    height: 120%;
+    // padding-top: 10%;
+    padding-left: $nav-size;
+  }
+  &__container {
+    background-color: $white;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    font-size: $nav-size;
+    height: $nav-size*4;
+    font-family: $secondary-font;
+  }
+  &__list-left {
+    margin: 0 5%;
+    height: 100%;
+    padding-top: $nav-size;
+  }
+  &__list-right {
+    list-style: none;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin: 0 5%;
+    align-items: center;
+  }
+  &__list-link {
+    text-decoration: none;
+    font-size: $nav-font-size;
+    color: $black;
+    &:hover {
+      color: $light-grey;
+    }
+  }
+}
+
+.main-container {
+  margin-top: $nav-size*4;
+}
+
+.video__container {
+  margin: 0 auto;
+  padding: $content-padding;
+  background-color: $white;
+  width: 60%;
+  border-radius: $content-radius;
+  box-sizing: border-box;
+}
+
+.video__file {
+  margin: 0 auto;
+  display: flex;
+  max-width: 80%;
+}
+
+.home__container {
+  background-color: $red;
+  padding: $container-padding 0;
+}
+
+.about__container {
+  background-color: $green;
+  padding: $container-padding 0;
+}
+
+.about__image {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.download__container {
+  background-color: $blue;
+  padding: $container-padding 0;
+}
+.info__container {
+  background-color: $yellow;
+  padding: $container-padding 0;
+}
+
+.content {
+  width: 60%;
+  margin: $para-padding auto;
+  background-color: $white;
+  padding: $content-padding;
+  border-radius: $content-radius;
+  font-family: $secondary-font;
+  box-sizing: border-box;
+}
+
+.about__content {
+  width: 80%;
+  margin: $para-padding auto;
+  background-color: $white;
+  padding: $content-padding;
+  border-radius: $content-radius;
+  font-family: $secondary-font;
+}
+
+.home__content {
+  width: 80%;
+  margin: $para-padding auto;
+  padding: $content-padding;
+  font-family: $secondary-font;
+  text-align: center;
+}
+.content-main {
+  margin: $para-padding auto;
+  color: $white;
+  padding: $content-padding;
+  border-radius: $content-radius;
+  font-size: $heading-font-size;
+  text-align: center;
+  font-family: $primary-font;
+}
+
+.download__list {
+  list-style: none;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.download__list-item {
+  background-color: $white;
+  border-radius: $content-radius;
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  padding: $content-padding;
+  box-sizing: border-box;
+}
+
+.download__list-image {
+  width: 100%;
+  display: flex;
+}
+
+.download__list-link {
+  font-family: $secondary-font;
+  text-align: center;
+  font-size: $p-font-size;
+  line-height: 2*$p-font-size;
+}
+
+.loop-st__button {
+  width: 20%;
+  opacity: 0.5;
+  height: 100px;
+  border-radius: 5px;
+  border: none;
+  &-red {
+    background-color: #d13535;
+  }
+  &-blue {
+    background-color: #37a8e9;
+  }
+  &-green {
+    background-color: #20bc39;
+  }
+  &-yellow {
+    background-color: #e9cc0c;
+  }
+}
+.loop-st__container {
+  width: 60%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}

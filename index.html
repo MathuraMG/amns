@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>BEAT</title>
+  <script src="app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/addons/p5.sound.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="nav__container">
+    <p class="nav__list-left">
+      BEAT in a BOX/AMNS
+    </p>
+    <ul class="nav__list-right">
+      <li class="nav__list-item">
+        <a class="nav__list-link" href="#home"> Home </a>
+      </li>
+      <li class="nav__list-item">
+        <a class="nav__list-link" href="#about"> About </a>
+      </li>
+      <li class="nav__list-item">
+        <a class="nav__list-link" href="#practice"> Practice </a>
+      </li>
+      <li class="nav__list-item">
+        <a class="nav__list-link" href="#contact"> Contact </a>
+      </li>
+    </ul>
+  </nav>
+  <section class="main-container">
+
+    <section class="home__container" id="home">
+      <p class="content-main"> BEAT in a BOX/AMNS </p>
+      <div class="video__container">
+        <iframe class="video__file" src="https://player.vimeo.com/video/96930933?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <p class="home__content">
+          House In The Dark - A Cat In A Box Adventure Book
+        </p>
+      </div>
+    </section>
+
+    <section class="about__container" id="about">
+      <p class="content-main"> WHAT IS IT? </p>
+      <div class="content">
+        <img class="about__image" src="assets/beat-main.jpeg"/>
+        <p class="about__content">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+      </div>
+
+    </section>
+
+    <section class="download__container" id="practice">
+      <p class="content-main"> Sing to your tunes! </p>
+      <p class="content">
+        Here you can beat box with the help of your very own music station.
+      </p>
+      <div class="loop-st__container">
+        <button class="loop-st__button loop-st__button-red" onclick="recordSound(1)">  </button>
+        <button class="loop-st__button loop-st__button-blue" onclick="recordSound(1)">  </button>
+        <button class="loop-st__button loop-st__button-green" onclick="recordSound(1)">  </button>
+        <button class="loop-st__button loop-st__button-yellow" onclick="recordSound(2)">  </button>
+      </div>
+    </section>
+    <section class="info__container" id="contact">
+      <p class="content-main"> Contact </p>
+      <p class="content">
+        Contact us if you would like to hear more!
+      </p>
+    </section>
+  </section>
+</body>
+
+</html>
