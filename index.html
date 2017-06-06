@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>BEAT</title>
+  <script src="grooves.js"></script>
   <script src="app.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/p5.min.js"></script>
@@ -17,14 +18,14 @@
 <body>
   <nav class="nav__container">
     <p class="nav__list-left">
-      BEAT in a BOX/AMNS
+      BEAT in a BOX
     </p>
     <ul class="nav__list-right">
       <li class="nav__list-item">
         <a class="nav__list-link" href="#home"> Home </a>
       </li>
       <li class="nav__list-item">
-        <a class="nav__list-link" href="#about"> About </a>
+        <a class="nav__list-link" href="#tutorial"> Tutorial </a>
       </li>
       <li class="nav__list-item">
         <a class="nav__list-link" href="#practice"> Practice </a>
@@ -36,25 +37,26 @@
   </nav>
   <section class="main-container">
 
-    <section class="home__container" id="home">
-      <p class="content-main"> BEAT in a BOX/AMNS </p>
-      <div class="video__container">
-        <iframe class="video__file" src="https://player.vimeo.com/video/96930933?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        <p class="home__content">
-          House In The Dark - A Cat In A Box Adventure Book
-        </p>
-      </div>
-    </section>
-
-    <section class="about__container" id="about">
-      <p class="content-main"> WHAT IS IT? </p>
+    <section class="about__container" id="home">
+      <p class="content-main"> What Is Is? </p>
       <div class="content">
         <img class="about__image" src="assets/beat-main.jpeg"/>
         <p class="about__content">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          Beat Rockers is a beatboxing and music program for students who needs speech therapy. By utilizing the art of beatboxing as a teaching tool for students to create music, we fundamentally transform traditional notions of what a music program should be. Rather than teach the students how to play instruments, students become both the musician and the instrument. In addition to cultivating confidence, communication, and self-expression, beatboxing also serves as a tool for speech therapy by helping students better achieve their communication goals as they find increased joy in vocalization exercises via the universal language of music.
         </p>
       </div>
 
+    </section>
+
+    <section class="home__container" id="tutorial">
+      <p class="content-main"> Tutorial </p>
+      <div class="video__container">
+        <iframe class="video__file"
+         src="https://player.vimeo.com/video/220519591?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <p class="home__content">
+          A video tutorial on how you can practice using this website
+        </p>
+      </div>
     </section>
 
     <section class="download__container" id="practice">
@@ -63,10 +65,20 @@
         Here you can beat box with the help of your very own music station.
       </p>
       <div class="loop-st__container">
-        <button class="loop-st__button loop-st__button-red" onclick="recordSound(1)">  </button>
-        <button class="loop-st__button loop-st__button-blue" onclick="recordSound(1)">  </button>
-        <button class="loop-st__button loop-st__button-green" onclick="recordSound(1)">  </button>
-        <button class="loop-st__button loop-st__button-yellow" onclick="recordSound(2)">  </button>
+        <button class="loop-st__button loop-st__button-red" > B </button>
+        <!--onclick="recordSound(1)"-->
+        <button class="loop-st__button loop-st__button-blue" > T </button>
+        <!--onclick="recordSound(1)"-->
+        <button class="loop-st__button loop-st__button-green" > K </button>
+        <!--onclick="recordSound(1)"-->
+        <button class="loop-st__button loop-st__button-yellow" > S </button>
+        <!--onclick="recordSound(2)"-->
+      </div>
+      <div class="loop-st__grooves">
+        <button class="loop-st__groove-button">Boots and Cats</button>
+        <!-- <button class="loop-st__groove-button">Boots and Cats</button> -->
+        <!-- <button class="loop-st__groove-button">Ti-Ka-Boo</button> -->
+
       </div>
     </section>
     <section class="info__container" id="contact">

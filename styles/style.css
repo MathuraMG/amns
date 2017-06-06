@@ -139,7 +139,8 @@ body, html {
   opacity: 0.5;
   height: 100px;
   border-radius: 5px;
-  border: none; }
+  border: none;
+  font-size: 2rem; }
   .loop-st__button-red {
     background-color: #d13535; }
   .loop-st__button-blue {
@@ -154,5 +155,18 @@ body, html {
   display: flex;
   margin: auto;
   justify-content: space-between; }
+
+.loop-st__grooves {
+  width: 60%;
+  margin: 1.2rem auto; }
+
+.loop-st__groove-button {
+  width: 100%;
+  opacity: 0.5;
+  height: 100px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  font-size: 2rem; }
 
 /*# sourceMappingURL=style.css.map */
